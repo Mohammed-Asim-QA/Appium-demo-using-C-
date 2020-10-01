@@ -61,10 +61,10 @@ namespace AppiumDemo
             _driver.FindElementById("com.etsy.android:id/btn_link").Click();
             Thread.Sleep(1000);
             test.Log(Status.Info, "Enter Userid/email");
-            _driver.FindElementById("com.etsy.android:id/edit_username").SendKeys("FlorenceBronte@Outlook.com");
+            _driver.FindElementById("com.etsy.android:id/edit_username").SendKeys("Username/emailid");
             Thread.Sleep(1000);
             test.Log(Status.Info, "Enter Password");
-            _driver.FindElementById("com.etsy.android:id/edit_password").SendKeys("0ctober123");
+            _driver.FindElementById("com.etsy.android:id/edit_password").SendKeys("Password");
             Thread.Sleep(1000);
             test.Log(Status.Info, "Sign in");
             _driver.FindElementById("com.etsy.android:id/button_signin").Click();
